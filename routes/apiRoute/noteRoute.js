@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { newNote, delNote } = require('../../lib/notesfunc');
-const { notesList } = require('../../db/db.json');
+const notesList = require('../../db/db.json');
 
 router.get('/notes', (req, res) =>{
     let results = notesList;
@@ -16,7 +16,7 @@ router.post('/notes', (req, res) => {
     }
 });
 
-router.delete('/db/:id', async (req, res) => {
+router.delete('/notes/:id', async (req, res) => {
     const { id } = req.params;
     noteList = await delNote(id, notesList);
     res.json(notesList)
