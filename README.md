@@ -17,7 +17,7 @@ and delete any note that user have created and stored in the database.
 
 [ Usage ](#usage)
 
-[ Image ](#Video)
+[ Video ](#Video)
 
 
 
@@ -49,6 +49,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 
 ## Usage
+
 After navigating to the [aecop github](https://github.com/Aecop/NoteTaker), clone the repo.
 Once repo has been cloned, user can open up terminal/cmd and type `npm start`. When user is 
 able to see `Listening on PORT (number)`, go to the web browser of choice and type `http://localhost:3001`.
@@ -57,7 +58,9 @@ From there user is guided to note taker web application and test it out.
 
 
 
-## Image
+## video
+
+[video](https://watch.screencastify.com/v/V7SQM3JY88cv3CdhZukw)
 
 
 
